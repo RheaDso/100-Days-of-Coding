@@ -1,0 +1,1 @@
+print("int (225) is :", int(225))
