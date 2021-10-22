@@ -1,0 +1,5 @@
+x = int(100)
+y = int(4)
+print(x+y)
+print(x-y)
+print(x*y)
