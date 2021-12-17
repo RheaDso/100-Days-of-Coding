@@ -12,7 +12,8 @@ class HR
     public:
     string name = "Rhea Dsouza";
 
-    int getSalary(){
+    int getSalary()
+    {
         return salary;
     }
 };

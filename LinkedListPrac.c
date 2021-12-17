@@ -3,9 +3,10 @@
 
 struct node
 {
-    int data;
+    int data;               
     struct node *next;
 };
+
 struct node *head, *newnode, *temp, *prevnode, *nextnode;
 int count=0;
 
@@ -18,7 +19,7 @@ void create()
 
     if(ch<0)
     {
-        printf("-----Invalid Input-----");
+        printf("------Invalid Input------");
     }
     else{
         while (ch>0){
