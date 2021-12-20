@@ -75,6 +75,7 @@ int pop()
                 printf("\nStack Underflow\n");
                 exit(1);
         }
+        
         tmp=top;
         item=tmp->info;
         top=top->link;
